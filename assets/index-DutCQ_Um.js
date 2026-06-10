@@ -433,7 +433,7 @@ Error generating stack: `+n.message+`
                                         transition\r
                                         cursor-pointer\r
                                         `,children:"Add Friend"}),r.jsx("button",{type:"button",onClick:()=>K(!1),className:`\r
-                                        w-90\r
+                                        w-[90%]\r
                                         bg-red-500\r
                                         py-3\r
                                         rounded-xl\r
