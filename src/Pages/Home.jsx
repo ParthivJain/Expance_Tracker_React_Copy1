@@ -395,7 +395,7 @@ function Home({setCurrentPage}){
                                 }}
 
                                 className="
-                                w-90
+                                w-[90%]
                                 m-6
                                 p-3
                                 rounded-xl
@@ -561,7 +561,7 @@ function Home({setCurrentPage}){
                                 }}
 
                                 className="
-                                w-90
+                                w-[90%]
                                 mt-5
                                 p-3
                                 rounded-xl
@@ -600,7 +600,7 @@ function Home({setCurrentPage}){
                                     flex-1
                                     bg-red-500
                                     py-3
-                                    w-90
+                                    w-[90%]
                                     rounded-xl
                                     font-semibold
                                     active:scale-95
