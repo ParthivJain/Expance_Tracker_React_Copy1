@@ -164,7 +164,7 @@ Error generating stack: `+n.message+`
                             font-bold\r
                             text-center\r
                             `,children:"Add Expanse"}),r.jsxs("form",{onSubmit:Ll,children:[r.jsx("input",{type:"number",placeholder:"Enter amount",required:!0,min:"1",value:k.amount,onChange:_=>{M({...k,amount:_.target.value})},className:`\r
-                                w-90\r
+                                w-[90%]\r
                                 m-6\r
                                 p-3\r
                                 rounded-xl\r
@@ -217,7 +217,7 @@ Error generating stack: `+n.message+`
                                         gap-2\r
                                         cursor-pointer\r
                                         `,children:[r.jsx("input",{type:"radio",name:"category",required:!0,value:"Other",checked:k.category==="Other",onChange:_=>M({...k,category:_.target.value})}),"Other"]})]})]}),r.jsx("input",{type:"date",required:!0,value:k.date,onChange:_=>{M({...k,date:_.target.value})},className:`\r
-                                w-90\r
+                                w-[90%]\r
                                 mt-5\r
                                 p-3\r
                                 rounded-xl\r
@@ -242,7 +242,7 @@ Error generating stack: `+n.message+`
                                     flex-1\r
                                     bg-red-500\r
                                     py-3\r
-                                    w-90\r
+                                    w-[90%]\r
                                     rounded-xl\r
                                     font-semibold\r
                                     active:scale-95\r
