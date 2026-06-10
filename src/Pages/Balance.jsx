@@ -465,7 +465,7 @@ function Balance({setCurrentPage}){
                                         type="button"
                                         onClick={() => setShowFriendModal(false)}
                                         className="
-                                        w-90
+                                        w-[90%]
                                         bg-red-500
                                         py-3
                                         rounded-xl
