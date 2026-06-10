@@ -71,8 +71,6 @@ function Home({setCurrentPage}){
             date : ""
         })
 
-        console.log(newExpense)
-
     }
 
     function deleteExpanse(id){
@@ -194,7 +192,7 @@ function Home({setCurrentPage}){
 
                                         <button 
                                         onClick={()=>{
-                                            setExpenseToDelete(expenses.id)
+                                            deleteExpanse(expenses.id)
                                             setShowConfirmPopup(true)
                                         }}
                                         className="
@@ -327,7 +325,6 @@ function Home({setCurrentPage}){
 
                                 <button 
                                 onClick={() => {
-                                    deleteExpanse(expenseToDelete)
                                     setShowConfirmPopup(false)
                                     setExpenseToDelete(null)
                                 }}
@@ -387,13 +384,16 @@ function Home({setCurrentPage}){
                                 placeholder="Enter amount"
                                 required
                                 min="1"
-                                value={expenseData.amount}
+
+                                value ={expenseData.amount}
+
                                 onChange={(e)=>{
                                     setExpenseData({
                                         ...expenseData,
-                                        amount: e.target.value
+                                        amount:e.target.value
                                     })
                                 }}
+
                                 className="
                                 w-90
                                 m-6
@@ -673,7 +673,7 @@ function Home({setCurrentPage}){
                 active:scale-95
                 transition
                 font-medium
-                text-gray-300
+                text-gary-300
                 ">
                     
                     <span className="text-lg">
@@ -699,7 +699,7 @@ function Home({setCurrentPage}){
                 active:scale-95
                 transition
                 font-medium
-                text-gray-300
+                text-gary-300
                 ">
 
                     <span className="text-lg">
