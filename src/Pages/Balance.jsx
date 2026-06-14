@@ -1249,7 +1249,10 @@ function Balance({setCurrentPage}){
                                 </button>
 
                                 <button
-                                onClick={()=>setShowMenu(false)} 
+                                onClick={()=>{
+                                    setShowMenu(false)
+                                    setSelectedFriend(null)
+                                }} 
                                 className="
                                 w-[80%]
                                 bg-gray-400
