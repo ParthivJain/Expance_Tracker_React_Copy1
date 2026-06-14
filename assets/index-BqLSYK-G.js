@@ -805,7 +805,7 @@ Error generating stack: `+n.message+`
                                 cursor-pointer\r
                                 active:scale-95\r
                                 transition\r
-                                `,children:"Clear"}),r.jsx("button",{onClick:()=>M(!1),className:`\r
+                                `,children:"Clear"}),r.jsx("button",{onClick:()=>{M(!1),H(null)},className:`\r
                                 w-[80%]\r
                                 bg-gray-400\r
                                 m-3\r
